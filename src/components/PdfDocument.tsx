@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
 import { mcqData } from '../data/mcqData'; // Your questions data array
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
 });
 
 // Maximum height in points allowed per column per page (adjust if needed)
-const MAX_HEIGHT = 700; // max height per column
+// const MAX_HEIGHT = 700; // max height per column
 
 // Estimate height of a question block based on text length
 const estimateQuestionHeight = (questionObj) => {

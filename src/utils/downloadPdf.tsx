@@ -5,6 +5,6 @@ export const downloadPdf = async () => {
   const blob = await pdf(<PdfDocument />).toBlob();
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = 'biology-mcq-paper.pdf';
+  link.download = 'question-paper.pdf';
   link.click();
 };
